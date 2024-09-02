@@ -1,0 +1,84 @@
+{
+    "displayName": "Comunismo 🇧🇷",
+    "blocks": [
+        {
+            "type": "regex",
+            "value": "/classe trabalhadora|marx|bell hooks|angela davis|Frantz Fanon|luide|joao carvalho|joão carvalho|ian neves|jones manoel|che guevara|comunismo|socialismo|capitalismo|capitalismo falhou|brutalismo|isabele lira|philippe leão|daniel davi|ser pobre|ycaro|gaiofato|zammuel|lauanny|elias jabbour|yanomami|pataxó|fidel castro|lênin|neoliberalismo|guajajara|guarani|/gm",
+            "caseSensitive": false,
+            "id": "aaak75udhheuw",
+            "target": "text|alt_text|link"
+        },
+        {
+            "type": "remove",
+            "subject": "language",
+            "value": null,
+            "id": "aaaav2fpz5i24",
+            "language": "pt"
+        },
+        {
+            "type": "input",
+            "inputType": "did",
+            "id": "aaadggtk6e3gm",
+            "did": "did:plc:zpdsijjjqzmbweblekrgrvzl",
+            "collection": "post|reply|repost"
+        },
+        {
+            "type": "input",
+            "inputType": "did",
+            "id": "aaadgf6jt3hra",
+            "firehoseSeconds": 604800,
+            "collection": "post|reply|repost",
+            "did": "did:plc:lqzay5ya6b7gwyn45qbl2s4x"
+        },
+        {
+            "type": "input",
+            "inputType": "did",
+            "id": "aaak72t7vmwtg",
+            "did": "did:plc:jp7dnpofjgz26bhtid3xhc3h",
+            "collection": "post|reply|repost"
+        },
+        {
+            "type": "input",
+            "inputType": "did",
+            "id": "aaak76cg44d6w",
+            "did": "did:plc:23lmpou652lkmshx6jfiunde",
+            "collection": "post|reply|repost"
+        },
+        {
+            "type": "input",
+            "inputType": "did",
+            "id": "aaak76fkb75ww",
+            "did": "did:plc:qrlodsav63erq6ukjv7slvp3"
+        },
+        {
+            "type": "input",
+            "inputType": "post",
+            "id": "aaak76ojwmvu6",
+            "postUri": "did:plc:dlwk6yzdj2vn2ypw3lydhcrb"
+        },
+        {
+            "type": "input",
+            "inputType": "did",
+            "id": "aaak76s6vc53q",
+            "did": "did:plc:fnbmmgxxazozwncbp7dvjj76"
+        },
+        {
+            "type": "input",
+            "inputType": "did",
+            "id": "aaalabkgvjtq6",
+            "did": "did:plc:cb4ysfn35kkn7pg34og343qv"
+        },
+        {
+            "type": "input",
+            "inputType": "did",
+            "id": "aaalabmju2fmm",
+            "did": "did:plc:bkmjd7czjh45rllomimfj3rg"
+        },
+        {
+            "id": "aaaavsspdt3d2",
+            "type": "sort",
+            "sortType": "created_at"
+        }
+    ],
+    "license": "EUPL-1.2"
+}
